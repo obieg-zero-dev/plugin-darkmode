@@ -17,7 +17,7 @@ const plugin: PluginFactory = ({ React, ui, icons, sdk }) => {
 
   sdk.registerAction('darkmode.toggle', { node: <ThemeToggle /> })
 
-  return { id: 'darkmode', label: 'Dark mode', version: '0.2.0' }
+  return { id: 'plugin-darkmode', label: 'Dark mode', version: '0.2.0' }
 }
 
 export default plugin
